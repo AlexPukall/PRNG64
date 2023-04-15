@@ -1,6 +1,8 @@
 # PRNG64
 Alexander PUKALL PRNG 64 
 
+Pseudorandom Number Generator
+
 LSFR 64 + LCG 64
 
 128 bits seed
