@@ -18,7 +18,7 @@
 // CODE FREE TO USE EVEN FOR COMMERCIAL APPLICATIONS
 // NO RESTRICTION
 
-// Compiled on Raspberry pi with
+// Compiled on Raspberry pi with :
 // gcc prng64.c -o prng64
 
 #include <stdint.h>
