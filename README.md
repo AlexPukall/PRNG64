@@ -2,7 +2,7 @@
 Alexander PUKALL PRNG 64 
 LSFR 64 + LCG 64
 128 bits seed
-prng64.c
+Source code in C and 6502 Assembler
 
 The output will be 2^64 random bits
 
