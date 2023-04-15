@@ -1,0 +1,19 @@
+-rwxr-xr-x 1 root root 21698944 mars   1 20:20 x128
+-rwxr-xr-x 1 root root 15478748 mars   1 20:20 x64dtv
+-rwxr-xr-x 1 root root 19095432 mars   1 20:20 x64sc
+-rwxr-xr-x 1 root root 14957652 mars   1 20:20 xcbm2
+-rwxr-xr-x 1 root root 15323412 mars   1 20:20 xcbm5x0
+-rwxr-xr-x 1 root root      385 févr. 16  2021 xdfscan
+-rwxr-xr-x 1 root root      385 févr. 16  2021 xdftool
+-rwxr-xr-x 1 root root   251468 sept. 21 22:46 xmt32
+-rwxr-xr-x 1 root root 15349732 mars   1 20:20 xpet
+-rwxr-xr-x 1 root root 15510244 mars   1 20:20 xplus4
+-rwxr-xr-x 1 root root 19294916 mars   1 20:20 xscpu64
+-rwxr-xr-x 1 root root 15856516 mars   1 20:20 xvic
+
+
+iaito -lance GUI radare2
+syncterm -> terminal
+
+recherche termes:
+grep terme * -r
