@@ -1,19 +1,80 @@
--rwxr-xr-x 1 root root 21698944 mars   1 20:20 x128
--rwxr-xr-x 1 root root 15478748 mars   1 20:20 x64dtv
--rwxr-xr-x 1 root root 19095432 mars   1 20:20 x64sc
--rwxr-xr-x 1 root root 14957652 mars   1 20:20 xcbm2
--rwxr-xr-x 1 root root 15323412 mars   1 20:20 xcbm5x0
--rwxr-xr-x 1 root root      385 févr. 16  2021 xdfscan
--rwxr-xr-x 1 root root      385 févr. 16  2021 xdftool
--rwxr-xr-x 1 root root   251468 sept. 21 22:46 xmt32
--rwxr-xr-x 1 root root 15349732 mars   1 20:20 xpet
--rwxr-xr-x 1 root root 15510244 mars   1 20:20 xplus4
--rwxr-xr-x 1 root root 19294916 mars   1 20:20 xscpu64
--rwxr-xr-x 1 root root 15856516 mars   1 20:20 xvic
+RNG_test using PractRand version 0.94
+RNG = RNG_stdin8, seed = unknown
+test set = core, folding = standard (8 bit)
 
+rng=RNG_stdin8, seed=unknown
+length= 8 megabytes (2^23 bytes), time= 3.7 seconds
+  no anomalies in 76 test result(s)
 
-iaito -lance GUI radare2
-syncterm -> terminal
+rng=RNG_stdin8, seed=unknown
+length= 16 megabytes (2^24 bytes), time= 8.4 seconds
+  no anomalies in 84 test result(s)
 
-recherche termes:
-grep terme * -r
+rng=RNG_stdin8, seed=unknown
+length= 32 megabytes (2^25 bytes), time= 17.0 seconds
+  no anomalies in 93 test result(s)
+
+rng=RNG_stdin8, seed=unknown
+length= 64 megabytes (2^26 bytes), time= 32.5 seconds
+  no anomalies in 99 test result(s)
+
+rng=RNG_stdin8, seed=unknown
+length= 128 megabytes (2^27 bytes), time= 62.7 seconds
+  no anomalies in 108 test result(s)
+
+rng=RNG_stdin8, seed=unknown
+length= 256 megabytes (2^28 bytes), time= 121 seconds
+  no anomalies in 118 test result(s)
+
+rng=RNG_stdin8, seed=unknown
+length= 512 megabytes (2^29 bytes), time= 237 seconds
+  no anomalies in 126 test result(s)
+
+rng=RNG_stdin8, seed=unknown
+length= 1 gigabyte (2^30 bytes), time= 470 seconds
+  no anomalies in 135 test result(s)
+
+rng=RNG_stdin8, seed=unknown
+length= 2 gigabytes (2^31 bytes), time= 936 seconds
+  no anomalies in 144 test result(s)
+
+rng=RNG_stdin8, seed=unknown
+length= 4 gigabytes (2^32 bytes), time= 1846 seconds
+  no anomalies in 151 test result(s)
+
+rng=RNG_stdin8, seed=unknown
+length= 8 gigabytes (2^33 bytes), time= 3662 seconds
+  no anomalies in 159 test result(s)
+
+rng=RNG_stdin8, seed=unknown
+length= 16 gigabytes (2^34 bytes), time= 7278 seconds
+  no anomalies in 167 test result(s)
+
+rng=RNG_stdin8, seed=unknown
+length= 32 gigabytes (2^35 bytes), time= 14372 seconds
+  no anomalies in 173 test result(s)
+
+rng=RNG_stdin8, seed=unknown
+length= 64 gigabytes (2^36 bytes), time= 28416 seconds
+  no anomalies in 181 test result(s)
+
+rng=RNG_stdin8, seed=unknown
+length= 128 gigabytes (2^37 bytes), time= 55896 seconds
+  no anomalies in 189 test result(s)
+
+rng=RNG_stdin8, seed=unknown
+length= 256 gigabytes (2^38 bytes), time= 110189 seconds
+  no anomalies in 195 test result(s)
+
+rng=RNG_stdin8, seed=unknown
+length= 512 gigabytes (2^39 bytes), time= 208856 seconds
+  no anomalies in 202 test result(s)
+
+rng=RNG_stdin8, seed=unknown
+length= 1 terabyte (2^40 bytes), time= 369656 seconds
+  no anomalies in 208 test result(s)
+
+rng=RNG_stdin8, seed=unknown
+length= 2 terabytes (2^41 bytes), time= 686317 seconds
+  no anomalies in 213 test result(s)
+
