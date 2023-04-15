@@ -28,3 +28,6 @@ All tests OK (no anomalies), test with 2TB
 
 CODE FREE TO USE EVEN FOR COMMERCIAL APPLICATIONS
 NO RESTRICTION
+
+C Code compiled on Raspberry pi with :
+gcc prng64.c -o prng64
