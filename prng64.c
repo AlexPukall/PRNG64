@@ -3,7 +3,7 @@
 // 128 bits seed
 // prng64.c
 
-// The output will be 2^64 random bits
+// The output will be 2^64 random bits.
 
 // With lfsr seed = 0xffffffffffffffff
 // and lcg seed = 0xffffffffffffffff
