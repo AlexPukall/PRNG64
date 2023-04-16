@@ -14,18 +14,21 @@
 
 // Practrand test : ./prng64 | /rng_test stdin8
 // All tests OK (no anomalies), test with 2TB
-
+//
 // CODE FREE TO USE EVEN FOR COMMERCIAL APPLICATIONS
 // NO RESTRICTION
 
-// Compiled on Raspberry pi with :
-// gcc prng64.c -o prng64
-
 #include <stdint.h>
 #include <stdio.h>
+#ifdef _WIN32
+#include <fcntl.h>
+#include <io.h>
+#endif
 
 int main()
 {
+	
+	static char buf[65536];
     uint64_t lfsr = 0xffffffffffffffffu; //LFSR 64 seed from 0x1 to 0xffffffffffffffff
     uint64_t b=0xffffffffffffffffu; //LCG 64 seed from 0x0 to 0xffffffffffffffff
     uint8_t rndbyte,tmp,shift;
@@ -33,6 +36,11 @@ int main()
   
   if (lfsr==0) lfsr=1; // never 0 in an LFSR
   
+  
+  setvbuf( stdout, buf, _IOFBF, sizeof(buf) ); 
+  #ifdef _WIN32
+    _setmode(_fileno(stdout), _O_BINARY);
+#endif
    
 for (i=0;i<64;i++) // mix LFSR 64 times before use
   {
