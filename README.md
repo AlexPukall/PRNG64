@@ -24,7 +24,7 @@ the 50 first bytes are:
 BE F4 DF 57 1D 27 CA B4 2B 16 
 
 Practrand test : ./prng64 | /rng_test stdin8
-All tests OK (no anomalies), test with 2TB
+All tests OK (no anomalies), test with 8TB
 
 CODE FREE TO USE EVEN FOR COMMERCIAL APPLICATIONS
 NO RESTRICTION
