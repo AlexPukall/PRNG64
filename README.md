@@ -7,7 +7,7 @@ LSFR 64 + LCG 64
 
 128 bits seed
 
-Source code in C and 6502 Assembler
+Source code in C or 6502 Assembler
 
 Mix the output of a 64-bit Linear feedback shift register
 and the output of a 64-bit Linear congruential generator
